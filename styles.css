@@ -1,0 +1,28 @@
+:root {
+  --smokey-black: hsl(0, 0%, 7%);
+  --eerie-black: hsl(0, 0%, 9%);
+  --radical-red: hsl(346, 100%, 58%);
+  --white_a9: hsla(0, 0%, 100%, 0.09);
+  --white: hsl(0, 0%, 100%);
+  --ff-recoleta: "Recoleta", serif;
+  --ff-gordita: "Gordita", sans-serif;
+  --fs-1: 6rem;
+  --fs-2: 5rem;
+  --fs-3: 3.8rem;
+  --fs-4: 2.8rem;
+  --section-padding: 60px;
+  --transition-2: 0.5s ease;
+}
+
+html {
+  font-family: var(--ff-gordita);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--smokey-black);
+  color: var(--white);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
